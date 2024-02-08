@@ -1,6 +1,9 @@
 a = 33
 b = 51
+c = 55
 if a > b:
    print ("a is greater than b")
+elif b > c:
+   print ("b is greater than c")
 else:
-   print ("b is greater than a")
+   print("a is less than c")
